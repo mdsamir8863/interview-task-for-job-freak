@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./javascript/index.js" defer></script>
+    <title>Routing By javaScript</title>
+  </head>
+  <body>
+    <main>
+      <nav id="left-panel">
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a  href="#contact">Contact</a></li>
+          <li><a  href="#information">Information</a></li>
+          <li><a  href="#guide">Guide</a></li>
+          <li><a  href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+      <div id="content">
+        <div id="home">
+          <h1>Welcome to the Home Page</h1>
+          <img src="./images/home.png" alt="home-image" />
+          <p>This is the home page content.</p>
+        </div>
+
+        <div id="contact" style="display: none;">
+          <h1>Contact Information</h1>
+          <img src="./images/contact.png" alt="Contact-image" />
+          <p>This is the contact information page content.</p>
+        </div>
+
+        <div id="information" style="display: none;">
+          <h1>Information Page</h1>
+          <img src="./images/certificate.png" alt="Information-image" />
+          <p>This is the information page content.</p>
+        </div>
+
+        <div id="guide" style="display: none;">
+          <h1>Guide Page</h1>
+          <img src="./images/signpost.png" alt="Guide-image" />
+          <p>This is the guide page content.</p>
+        </div>
+
+        <div id="profile" style="display: none;">
+          <h1>My profile</h1>
+          <img class="myPic" src="./images/Samir.png.png" alt="Samir-Image" />
+          <p>
+            <a
+              href="https://github.com/mdsamir8863"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./images/github.gif" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/md-samir-28257a244/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./images/linkedin.gif" alt="" />
+            </a>
+            <a
+              href="https://www.instagram.com/mdsamir.bkp/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="./images/instagram.gif" alt="" />
+            </a>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
